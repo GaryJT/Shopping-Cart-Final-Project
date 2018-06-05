@@ -1,14 +1,19 @@
 * {
     box-sizing: border-box;
 }
+
 h2 {
     font-size: 50px;
+    color: black;
     text-align: center;
 }
+
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, Helvetica;
+    background: linear-gradient(to right, #54cddd, #b7cfff);
 }
+
 #pencils1, #p1 {
         text-align: center;
 }
@@ -26,10 +31,9 @@ body {
 
 .containerTab {
     color: black;
-    border: 1px dashed black;
+    border: dashed 3px black;
     text-align: center;
 }
-
 
 .row:after {
     content: "";
@@ -37,13 +41,13 @@ body {
     clear: both;
 }
 
-
 .closebtn {
     float: right;
     color: black;
     font-size: 70px;
     cursor: pointer;
 }
+
 #btn {
   background-color: #fffda5;
   border: none;
@@ -64,7 +68,6 @@ body {
     list-style-type: none;
     background: #e3e8ef;
     padding: 15px;
-    border: 1px solid;
 }
 
 #p1 {
@@ -72,8 +75,13 @@ body {
     padding: 15px;
     font-size: 15px;
     border: 1px solid;
-}
+  }
 
-#clear-cart, #checkout {
+  #clear-cart, #checkout {
     font-size: 25px;
-}     
+    width: 100%;
+  }  
+
+  p {
+    font-size: 30px;
+  }
